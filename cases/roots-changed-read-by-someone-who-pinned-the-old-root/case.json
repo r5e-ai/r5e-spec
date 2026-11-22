@@ -1,0 +1,20 @@
+{
+  "description": "The same change, read by someone who names the old root key and not the chain. A pinned key never follows a change of roots: the reader is told the new roots are not ones they trust, and the old root's time as a root is over from the change.",
+  "minStartSeq": null,
+  "name": "roots-changed-read-by-someone-who-pinned-the-old-root",
+  "trustedChain": null,
+  "trustedProfiles": [
+    "bytes:sha256:b87d211e8939df76d2cbb039cc56e3d409c6a616b86bb6c024b040a13baa7c9c",
+    "bytes:sha256:dbdf7c0e8578b8bb9d9a671a132cd1912251979cdfd0590f77c658b93a791662",
+    "bytes:sha256:076dccb3c73c0152545f5336e6402a0771ab56b9e56aaacaf4a99da3d7b3a470",
+    "bytes:sha256:26fcc4f7aaaf16c62daabc4484dadcb858c381320941d5fa41fac86bb5efc82b",
+    "bytes:sha256:c978ea7deea0cc44c356a2bae6aa1caba9c2b3a2d757f38cff39d02dd387e2d5",
+    "bytes:sha256:e91d2d14f95c2fa4e2d634d1711197c43dbc2de8114146c4fab731633db1837e"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:b9fbbe425acbb4d8e0b7778375edbf0f7a05b5f28621deefde598828c9634290"
+  ],
+  "trustedRoots": [
+    "key:ed25519:sha256:3c6441bd8e916b663e6b59ca523696fa07a1de14064b6f58fb834cd385ce2abc"
+  ]
+}

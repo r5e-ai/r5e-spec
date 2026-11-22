@@ -1,0 +1,14 @@
+{
+  "description": "The same record without the manifest. The envelope is sound; the body is reported as not checked.",
+  "minStartSeq": null,
+  "name": "extension-kind-without-definition",
+  "trustedChain": null,
+  "trustedProfiles": [
+    "bytes:sha256:d179384314cb8fd7e55b900c9905ba7d70ab655b6b02935254f8ce672cb507aa",
+    "bytes:sha256:076dccb3c73c0152545f5336e6402a0771ab56b9e56aaacaf4a99da3d7b3a470"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:b9fbbe425acbb4d8e0b7778375edbf0f7a05b5f28621deefde598828c9634290"
+  ],
+  "trustedRoots": null
+}

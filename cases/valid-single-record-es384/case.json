@@ -1,0 +1,14 @@
+{
+  "description": "One tool call signed with ES384 (raw r||s, low S, SHA-384). Every check holds.",
+  "minStartSeq": null,
+  "name": "valid-single-record-es384",
+  "trustedChain": null,
+  "trustedProfiles": [
+    "bytes:sha256:5586f2eff37c72d7f847bd4679b1abadf6a0b5a345c173d730642a2a55cd6b5b",
+    "bytes:sha256:076dccb3c73c0152545f5336e6402a0771ab56b9e56aaacaf4a99da3d7b3a470"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:b9fbbe425acbb4d8e0b7778375edbf0f7a05b5f28621deefde598828c9634290"
+  ],
+  "trustedRoots": null
+}

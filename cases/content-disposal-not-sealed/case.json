@@ -1,0 +1,17 @@
+{
+  "description": "A disposal that no seal covers. Nothing fixes when it was made, so it is not yet a disposal a reader can rely on.",
+  "minStartSeq": null,
+  "name": "content-disposal-not-sealed",
+  "trustedChain": null,
+  "trustedProfiles": [
+    "bytes:sha256:d31135a0fb4d87e7475845fe9a31e44ba5e70640329a5fc7f5a969f37228804c",
+    "bytes:sha256:1e592b943446ac88c556c519894dd16211fb656e6cd0fcdd0b541099ac0b883b",
+    "bytes:sha256:076dccb3c73c0152545f5336e6402a0771ab56b9e56aaacaf4a99da3d7b3a470"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:b9fbbe425acbb4d8e0b7778375edbf0f7a05b5f28621deefde598828c9634290"
+  ],
+  "trustedRoots": [
+    "key:ed25519:sha256:9172afcae8c695136800f63d72e69eb63d535b434482975b10aefbab2bc54e74"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "description": "A customer's publisher, believed about acme.example, publishes its own document for an r5e.io kind, and a record cites it. r5e's publisher, believed about r5e.io, published a different document for that kind, so the record fails.",
+  "minStartSeq": null,
+  "name": "second-publisher-speaks-outside-its-domain",
+  "trustedChain": null,
+  "trustedProfiles": [
+    "bytes:sha256:d834897665d2aeabf2d8b35518d09d37e35fb125c6b020d54c575eec391d22e9",
+    "bytes:sha256:076dccb3c73c0152545f5336e6402a0771ab56b9e56aaacaf4a99da3d7b3a470",
+    "bytes:sha256:948174005282d29f7e55ebebef9283de69b8ec0fb6eb6b8c36cac6628aaf03f0"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:b9fbbe425acbb4d8e0b7778375edbf0f7a05b5f28621deefde598828c9634290=r5e.io",
+    "key:ed25519:sha256:9b5829460f50e78150a7539be466b859bb1c0961f8bdd0987300e7facbeecee7=acme.example"
+  ],
+  "trustedRoots": null
+}

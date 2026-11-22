@@ -1,0 +1,18 @@
+{
+  "findings": [
+    {
+      "about": null,
+      "check": "shape",
+      "code": "malformed_bundle",
+      "layer": 1,
+      "result": "failed",
+      "subject": "bundle"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "summary": {
+    "failed": 1,
+    "incomplete": 0,
+    "ok": 0
+  }
+}

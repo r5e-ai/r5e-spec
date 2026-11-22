@@ -1,0 +1,17 @@
+{
+  "description": "The deployment record lists one of its roots as a recovery key as well. A recovery key acts alone, so this would let one root step around the number required to act together.",
+  "minStartSeq": null,
+  "name": "start-recovery-key-is-also-a-root",
+  "trustedChain": null,
+  "trustedProfiles": [
+    "bytes:sha256:b87d211e8939df76d2cbb039cc56e3d409c6a616b86bb6c024b040a13baa7c9c",
+    "bytes:sha256:dbdf7c0e8578b8bb9d9a671a132cd1912251979cdfd0590f77c658b93a791662",
+    "bytes:sha256:076dccb3c73c0152545f5336e6402a0771ab56b9e56aaacaf4a99da3d7b3a470"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:b9fbbe425acbb4d8e0b7778375edbf0f7a05b5f28621deefde598828c9634290"
+  ],
+  "trustedRoots": [
+    "key:ed25519:sha256:3c6441bd8e916b663e6b59ca523696fa07a1de14064b6f58fb834cd385ce2abc"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "description": "The profile requires a policy evaluation on tool calls and the record has none.",
+  "minStartSeq": null,
+  "name": "policy-required-missing",
+  "trustedChain": null,
+  "trustedProfiles": [
+    "bytes:sha256:2630a5c5f6dc50eecc33541211f3cb024d2d6d863edc2b6f42ab4587824c8226",
+    "bytes:sha256:076dccb3c73c0152545f5336e6402a0771ab56b9e56aaacaf4a99da3d7b3a470"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:b9fbbe425acbb4d8e0b7778375edbf0f7a05b5f28621deefde598828c9634290"
+  ],
+  "trustedRoots": null
+}

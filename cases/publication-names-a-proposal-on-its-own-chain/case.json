@@ -1,0 +1,14 @@
+{
+  "description": "A publication names the record its definitions were proposed in, with no chain prefix.",
+  "minStartSeq": null,
+  "name": "publication-names-a-proposal-on-its-own-chain",
+  "trustedChain": null,
+  "trustedProfiles": [
+    "bytes:sha256:2f5a7199afa3274b8810da7bbd3df364bdf0a03b79da08e86b16d20a7d693cff",
+    "bytes:sha256:3ae4047540f5abd680820acf3cbc1a838f6e302680804718795269337ca9d871"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:c3fe9d434f8257f0a8139eab9b70c7c1fb576228e92ce69c2cbabc48fc5bcce0=r5e.io"
+  ],
+  "trustedRoots": null
+}

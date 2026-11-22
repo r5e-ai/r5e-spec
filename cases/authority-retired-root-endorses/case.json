@@ -1,0 +1,13 @@
+{
+  "description": "A root writes a hand-over to a new key, and afterwards both keys issue an endorsement. A root's place does not pass by hand-over: only a change of roots on the deployment's start stream makes another key a root. The old key is still the root the reader trusts, so its endorsement stands, and the new key has no standing.",
+  "minStartSeq": null,
+  "name": "authority-retired-root-endorses",
+  "trustedChain": null,
+  "trustedProfiles": [
+    "bytes:sha256:dbdf7c0e8578b8bb9d9a671a132cd1912251979cdfd0590f77c658b93a791662"
+  ],
+  "trustedPublishers": [],
+  "trustedRoots": [
+    "key:ed25519:sha256:3c6441bd8e916b663e6b59ca523696fa07a1de14064b6f58fb834cd385ce2abc"
+  ]
+}

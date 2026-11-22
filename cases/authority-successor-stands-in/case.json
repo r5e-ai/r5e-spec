@@ -1,0 +1,13 @@
+{
+  "description": "The gateway hands over to a new key. The new key signs under the old key's endorsement and gives out a badge under it; the old key, signing after the hand-over, has nothing.",
+  "minStartSeq": null,
+  "name": "authority-successor-stands-in",
+  "trustedChain": null,
+  "trustedProfiles": [
+    "bytes:sha256:dbdf7c0e8578b8bb9d9a671a132cd1912251979cdfd0590f77c658b93a791662"
+  ],
+  "trustedPublishers": [],
+  "trustedRoots": [
+    "key:ed25519:sha256:3c6441bd8e916b663e6b59ca523696fa07a1de14064b6f58fb834cd385ce2abc"
+  ]
+}

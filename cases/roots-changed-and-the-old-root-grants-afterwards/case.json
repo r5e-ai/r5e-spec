@@ -1,0 +1,19 @@
+{
+  "description": "After it was replaced, the old root signs a new grant and dates it after the change. It has ended.",
+  "minStartSeq": null,
+  "name": "roots-changed-and-the-old-root-grants-afterwards",
+  "trustedChain": "evidence:sha256:ec57cdf6a02f202164e3e3709e5f27838eaf6f0a256630648e313fafb1e0a440",
+  "trustedProfiles": [
+    "bytes:sha256:b87d211e8939df76d2cbb039cc56e3d409c6a616b86bb6c024b040a13baa7c9c",
+    "bytes:sha256:dbdf7c0e8578b8bb9d9a671a132cd1912251979cdfd0590f77c658b93a791662",
+    "bytes:sha256:076dccb3c73c0152545f5336e6402a0771ab56b9e56aaacaf4a99da3d7b3a470",
+    "bytes:sha256:26fcc4f7aaaf16c62daabc4484dadcb858c381320941d5fa41fac86bb5efc82b",
+    "bytes:sha256:c978ea7deea0cc44c356a2bae6aa1caba9c2b3a2d757f38cff39d02dd387e2d5",
+    "bytes:sha256:e91d2d14f95c2fa4e2d634d1711197c43dbc2de8114146c4fab731633db1837e",
+    "bytes:sha256:f3f0219def2b2d05918e2ce63be71bda99d402a222bc4c0ee80e30617c41294d"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:b9fbbe425acbb4d8e0b7778375edbf0f7a05b5f28621deefde598828c9634290"
+  ],
+  "trustedRoots": null
+}

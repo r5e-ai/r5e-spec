@@ -1,0 +1,17 @@
+{
+  "description": "The same file, read by someone who trusts a different root. The two start records are well formed and consistent, and that is all they are: anyone can make a bootstrap key and a root. The start is reported as not trusted, and nothing beneath it has standing.",
+  "minStartSeq": null,
+  "name": "start-by-someone-the-reader-never-chose",
+  "trustedChain": null,
+  "trustedProfiles": [
+    "bytes:sha256:b87d211e8939df76d2cbb039cc56e3d409c6a616b86bb6c024b040a13baa7c9c",
+    "bytes:sha256:dbdf7c0e8578b8bb9d9a671a132cd1912251979cdfd0590f77c658b93a791662",
+    "bytes:sha256:076dccb3c73c0152545f5336e6402a0771ab56b9e56aaacaf4a99da3d7b3a470"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:b9fbbe425acbb4d8e0b7778375edbf0f7a05b5f28621deefde598828c9634290"
+  ],
+  "trustedRoots": [
+    "key:ed25519:sha256:9090f4a04111ef81904c6b6c5ed1e2c8608bf4fea1564563a6733520264d1f1f"
+  ]
+}

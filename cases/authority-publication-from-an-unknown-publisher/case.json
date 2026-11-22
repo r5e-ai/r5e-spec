@@ -1,0 +1,14 @@
+{
+  "description": "The same again, read by someone who trusts the root and no publisher. Carrying a stranger's statement is not a fault: nothing fails, and whose definitions these are is reported as not established.",
+  "minStartSeq": null,
+  "name": "authority-publication-from-an-unknown-publisher",
+  "trustedChain": null,
+  "trustedProfiles": [
+    "bytes:sha256:dbdf7c0e8578b8bb9d9a671a132cd1912251979cdfd0590f77c658b93a791662",
+    "bytes:sha256:076dccb3c73c0152545f5336e6402a0771ab56b9e56aaacaf4a99da3d7b3a470"
+  ],
+  "trustedPublishers": [],
+  "trustedRoots": [
+    "key:ed25519:sha256:3c6441bd8e916b663e6b59ca523696fa07a1de14064b6f58fb834cd385ce2abc"
+  ]
+}

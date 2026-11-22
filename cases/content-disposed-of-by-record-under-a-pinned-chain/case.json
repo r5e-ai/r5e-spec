@@ -1,0 +1,16 @@
+{
+  "description": "The same disposal, with the two records that began this deployment, read by someone who pins the deployment's chain by name. The gateway's standing to dispose comes from the root the claim declared.",
+  "minStartSeq": null,
+  "name": "content-disposed-of-by-record-under-a-pinned-chain",
+  "trustedChain": "evidence:sha256:ab25cb81b9c8714c6e418c43aed38d594683ea29b997029807360cc0ab2e7b11",
+  "trustedProfiles": [
+    "bytes:sha256:d31135a0fb4d87e7475845fe9a31e44ba5e70640329a5fc7f5a969f37228804c",
+    "bytes:sha256:1e592b943446ac88c556c519894dd16211fb656e6cd0fcdd0b541099ac0b883b",
+    "bytes:sha256:6fbd4ddc7a7e143497e60c5f87b7f03e96ae6bc105986f56a558c3664a9e133c",
+    "bytes:sha256:076dccb3c73c0152545f5336e6402a0771ab56b9e56aaacaf4a99da3d7b3a470"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:b9fbbe425acbb4d8e0b7778375edbf0f7a05b5f28621deefde598828c9634290"
+  ],
+  "trustedRoots": null
+}

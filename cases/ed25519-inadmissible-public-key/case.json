@@ -1,0 +1,14 @@
+{
+  "description": "The issuer's key is the identity point, filed under the key id its bytes hash to, with a signature that a lax Ed25519 check accepts for any message. The key is not admissible, so it has no key id.",
+  "minStartSeq": null,
+  "name": "ed25519-inadmissible-public-key",
+  "trustedChain": null,
+  "trustedProfiles": [
+    "bytes:sha256:d29060f609c28f8b0c854bdeebd5f1b57c6dffbcb770473276ef31bc5057afe8",
+    "bytes:sha256:076dccb3c73c0152545f5336e6402a0771ab56b9e56aaacaf4a99da3d7b3a470"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:b9fbbe425acbb4d8e0b7778375edbf0f7a05b5f28621deefde598828c9634290"
+  ],
+  "trustedRoots": null
+}

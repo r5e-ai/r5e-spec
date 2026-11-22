@@ -1,0 +1,14 @@
+{
+  "description": "An extension kind with an open map whose names include accented, Chinese and U+FFFD characters. The record's bytes order them by their UTF-8 bytes.",
+  "minStartSeq": null,
+  "name": "names-outside-ascii",
+  "trustedChain": null,
+  "trustedProfiles": [
+    "bytes:sha256:0489b43b11503ba39d851dcd3416b9737ee193c8fb500eb8b8921cbaa4672eaf",
+    "bytes:sha256:076dccb3c73c0152545f5336e6402a0771ab56b9e56aaacaf4a99da3d7b3a470"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:b9fbbe425acbb4d8e0b7778375edbf0f7a05b5f28621deefde598828c9634290"
+  ],
+  "trustedRoots": null
+}

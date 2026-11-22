@@ -1,0 +1,13 @@
+{
+  "description": "A sound record with no statement from any publisher about its definition. Whose definition it is is not established.",
+  "minStartSeq": null,
+  "name": "publication-not-carried",
+  "trustedChain": null,
+  "trustedProfiles": [
+    "bytes:sha256:2f5a7199afa3274b8810da7bbd3df364bdf0a03b79da08e86b16d20a7d693cff"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:b9fbbe425acbb4d8e0b7778375edbf0f7a05b5f28621deefde598828c9634290"
+  ],
+  "trustedRoots": null
+}

@@ -1,0 +1,14 @@
+{
+  "description": "A record cites a looser definition carried in the bundle under a base kind's name. The trusted publisher issued a different document for that kind.",
+  "minStartSeq": null,
+  "name": "definition-differs-from-published",
+  "trustedChain": null,
+  "trustedProfiles": [
+    "bytes:sha256:d834897665d2aeabf2d8b35518d09d37e35fb125c6b020d54c575eec391d22e9",
+    "bytes:sha256:076dccb3c73c0152545f5336e6402a0771ab56b9e56aaacaf4a99da3d7b3a470"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:b9fbbe425acbb4d8e0b7778375edbf0f7a05b5f28621deefde598828c9634290"
+  ],
+  "trustedRoots": null
+}

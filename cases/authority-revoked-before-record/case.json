@@ -1,0 +1,13 @@
+{
+  "description": "The gateway took the badge back five seconds before the tool call.",
+  "minStartSeq": null,
+  "name": "authority-revoked-before-record",
+  "trustedChain": null,
+  "trustedProfiles": [
+    "bytes:sha256:dbdf7c0e8578b8bb9d9a671a132cd1912251979cdfd0590f77c658b93a791662"
+  ],
+  "trustedPublishers": [],
+  "trustedRoots": [
+    "key:ed25519:sha256:3c6441bd8e916b663e6b59ca523696fa07a1de14064b6f58fb834cd385ce2abc"
+  ]
+}

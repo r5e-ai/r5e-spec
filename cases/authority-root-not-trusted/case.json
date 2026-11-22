@@ -1,0 +1,13 @@
+{
+  "description": "The same bundle read by someone who trusts a different key. Nothing in it has standing.",
+  "minStartSeq": null,
+  "name": "authority-root-not-trusted",
+  "trustedChain": null,
+  "trustedProfiles": [
+    "bytes:sha256:dbdf7c0e8578b8bb9d9a671a132cd1912251979cdfd0590f77c658b93a791662"
+  ],
+  "trustedPublishers": [],
+  "trustedRoots": [
+    "key:ed25519:sha256:9090f4a04111ef81904c6b6c5ed1e2c8608bf4fea1564563a6733520264d1f1f"
+  ]
+}

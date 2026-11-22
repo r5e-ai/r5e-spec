@@ -1,0 +1,15 @@
+{
+  "description": "The reader pinned a different chain from the one in the file. The start fails, and nothing beneath it has standing.",
+  "minStartSeq": null,
+  "name": "start-pinned-to-another-chain",
+  "trustedChain": "evidence:sha256:6f41e5741d02a56619952e1aa62647a2e1312d4d1e24e2593f7ed923d5fe4067",
+  "trustedProfiles": [
+    "bytes:sha256:b87d211e8939df76d2cbb039cc56e3d409c6a616b86bb6c024b040a13baa7c9c",
+    "bytes:sha256:dbdf7c0e8578b8bb9d9a671a132cd1912251979cdfd0590f77c658b93a791662",
+    "bytes:sha256:076dccb3c73c0152545f5336e6402a0771ab56b9e56aaacaf4a99da3d7b3a470"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:b9fbbe425acbb4d8e0b7778375edbf0f7a05b5f28621deefde598828c9634290"
+  ],
+  "trustedRoots": null
+}

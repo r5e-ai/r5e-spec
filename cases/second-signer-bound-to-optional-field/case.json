@@ -1,0 +1,14 @@
+{
+  "description": "A definition asks for two signatures but names the second signer on a field a body may leave out, and this body does. Any key could have signed second. The definition is not one a verifier may use.",
+  "minStartSeq": null,
+  "name": "second-signer-bound-to-optional-field",
+  "trustedChain": null,
+  "trustedProfiles": [
+    "bytes:sha256:81402754f181f76b58c5f5231a8078949980b0dbadd8fd149ed545206aaa43c4",
+    "bytes:sha256:076dccb3c73c0152545f5336e6402a0771ab56b9e56aaacaf4a99da3d7b3a470"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:b9fbbe425acbb4d8e0b7778375edbf0f7a05b5f28621deefde598828c9634290"
+  ],
+  "trustedRoots": null
+}

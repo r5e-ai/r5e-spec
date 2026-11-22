@@ -1,0 +1,11 @@
+{
+  "description": "A sound bundle read with no trust input. Authority is not established and is reported as not checked.",
+  "minStartSeq": null,
+  "name": "untrusted-profile",
+  "trustedChain": null,
+  "trustedProfiles": [],
+  "trustedPublishers": [
+    "key:ed25519:sha256:b9fbbe425acbb4d8e0b7778375edbf0f7a05b5f28621deefde598828c9634290"
+  ],
+  "trustedRoots": null
+}
