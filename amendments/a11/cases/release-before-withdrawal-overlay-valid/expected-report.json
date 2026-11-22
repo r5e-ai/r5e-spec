@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "evidence:sha256:4ca15d9f9192baa7dd034e3d0190768f03a9ecf1ef9393571587f9a202c0bb5d",
+      "category": "mechanical_check",
+      "check": "basis_overlay_order",
+      "code": "ok",
+      "layer": 3,
+      "result": "ok",
+      "subject": "evidence:sha256:13646e70a37542fb2a6b83154538f17728960ca771b40ecb35db66b0258c1b2d"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "ok"
+}

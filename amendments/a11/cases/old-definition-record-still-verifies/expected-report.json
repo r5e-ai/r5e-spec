@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "bytes:sha256:db4c300394eb395309caf0a23fee82eb78486685e52c18ecad47a33ff03ca0b9",
+      "category": "mechanical_check",
+      "check": "definition_coexistence",
+      "code": "ok",
+      "layer": 1,
+      "result": "ok",
+      "subject": "evidence:sha256:acfcb29512f4b55678a18c6ca9694107cde400ffe2c48911c628f17368cd369f"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "ok"
+}

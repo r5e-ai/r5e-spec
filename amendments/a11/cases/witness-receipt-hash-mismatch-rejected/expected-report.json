@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "bytes:sha256:ae4e589a375d22a7cef911d8188eaa1d403c3046404d747bd79a758bd63caf0b",
+      "category": "cryptographic_proof",
+      "check": "witness_receipt_binding",
+      "code": "witness_receipt_hash_mismatch",
+      "layer": 3,
+      "result": "failed",
+      "subject": "evidence:sha256:cd57c68b430d6db0ba6481fe013c0e804e1e46a2c8b4c06f7ba53649821a94c4"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

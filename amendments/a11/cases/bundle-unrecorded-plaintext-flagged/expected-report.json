@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "bytes:sha256:a6a6f64b04309fdcb281ea4276b27f3e5d433a20ad0caf3473c448bdb06f5393",
+      "category": "mechanical_check",
+      "check": "checkpoint_and_unlock_log",
+      "code": "unrecorded_plaintext_in_bundle",
+      "layer": 3,
+      "result": "failed",
+      "subject": "evidence:sha256:89f690056abcdc6eed9d55eea3e30875975d1d1af5af9741aee1b6874610f759"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

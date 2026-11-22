@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "evidence:sha256:f7b148512c4c212b2fcef1396563795837d75fbc56cbd0cbdf7291bb4efc9e95",
+      "category": "mechanical_check",
+      "check": "basis_overlay_order",
+      "code": "basis_power_withdrawn_or_expired",
+      "layer": 3,
+      "result": "failed",
+      "subject": "evidence:sha256:de66c5e5cfa77df191ce863f9ffa5cdbe533a675f5a150b2208ec3732f99543e"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "copy-unknown",
+      "category": "cryptographic_proof",
+      "check": "erasure_l2_proof",
+      "code": "erasure_unknown_copy_id",
+      "layer": 3,
+      "result": "failed",
+      "subject": "evidence:sha256:27315505d02c0df1de64852e69b83326cdedf7583939cc1e1b6717b9677fcf8b"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

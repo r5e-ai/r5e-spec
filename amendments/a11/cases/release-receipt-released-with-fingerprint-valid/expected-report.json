@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "bytes:sha256:70b9aa5bdf9fb1e3134d40ee6127f284b00d9f74ab4dc91619333e8781eb2232",
+      "category": "mechanical_check",
+      "check": "release_receipt_fingerprint",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:84d09ae5be6cf228e965b54c20b92845996f5ebed798b17929249bcf68adbff0"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "ok"
+}

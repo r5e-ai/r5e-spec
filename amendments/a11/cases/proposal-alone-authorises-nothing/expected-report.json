@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "evidence:sha256:7d92c640de62fba290e71d80ad3dcb0918876863cb5077f577e06c411adeec28",
+      "category": "mechanical_check",
+      "check": "basis_declared_power",
+      "code": "proposal_authorises_nothing",
+      "layer": 3,
+      "result": "failed",
+      "subject": "evidence:sha256:afe71a2400f9fe0d0d3500f17deaa409e64b708937cc9799c98ff8e153d4d902"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

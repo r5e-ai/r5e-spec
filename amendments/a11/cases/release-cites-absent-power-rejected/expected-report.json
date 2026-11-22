@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "train_on",
+      "category": "mechanical_check",
+      "check": "basis_declared_power",
+      "code": "act_cites_declared_or_absent_power",
+      "layer": 3,
+      "result": "failed",
+      "subject": "evidence:sha256:6555077c1d0ec524bcc24f202671b6d0340b491eaf9703037223b85ff6fe9e9e"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

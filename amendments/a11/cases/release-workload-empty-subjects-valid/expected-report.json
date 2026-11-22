@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "key:ed25519:sha256:6567b5cfc020ec8e0dc334ff23e6c9d7fb9a63b7cf83f1af989f5e19c03a9edb",
+      "category": "cryptographic_proof",
+      "check": "release_request_approvals",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:183723b3af71702416e6f2439f73110443775640bd6b89cc9072b2fa25060340"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "ok"
+}

@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "urn:r5e:session:a11-0001",
+      "category": "mechanical_check",
+      "check": "checkpoint_and_unlock_log",
+      "code": "unlock_without_release_record",
+      "layer": 3,
+      "result": "failed",
+      "subject": "unlock-001"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

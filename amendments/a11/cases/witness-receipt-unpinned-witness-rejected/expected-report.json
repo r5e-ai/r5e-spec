@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "key:ed25519:sha256:815b9e6c5bb3f289cad4588fb34b752656706daa60cf6ca1ac8e99423cb062c8",
+      "category": "cryptographic_proof",
+      "check": "witness_receipt_binding",
+      "code": "witness_unpinned",
+      "layer": 3,
+      "result": "failed",
+      "subject": "evidence:sha256:12fab22d4ba5593f83118ffcb3fefab56d219f2af2c2698759b0e4e1d4308d33"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

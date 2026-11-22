@@ -1,0 +1,72 @@
+[
+  {
+    "file": "Basis.json",
+    "kind": "provenance.r5e.io/v2/Basis",
+    "schemaRef": "bytes:sha256:b156c645e1c060b3cf50e6221499546055e192c825d67e75a7468c7aed62dc1a"
+  },
+  {
+    "file": "BasisOverlay.json",
+    "kind": "provenance.r5e.io/v2/BasisOverlay",
+    "schemaRef": "bytes:sha256:bf856c5b4c933c1f16d1eadc5a31dfbf9ede9fcd524cb5b304d494ca67b00cf4"
+  },
+  {
+    "file": "ReleaseRequest.json",
+    "kind": "provenance.r5e.io/v2/ReleaseRequest",
+    "schemaRef": "bytes:sha256:6f342a5684bea0e0a5ae7e2cc4458df09cee06ef3ae3ce726a30bcc0c2a35f85"
+  },
+  {
+    "file": "ReleaseReceipt.json",
+    "kind": "provenance.r5e.io/v2/ReleaseReceipt",
+    "schemaRef": "bytes:sha256:3951578bb99b462815e9bd25f7104f2becbd61ac942021e1f0684c816a4f31ee"
+  },
+  {
+    "file": "ErasureAnswer.json",
+    "kind": "provenance.r5e.io/v2/ErasureAnswer",
+    "schemaRef": "bytes:sha256:1b2aef344ee161af04c4bfaa37ffd26956013091ce6d93fc06eb5129f88c431e"
+  },
+  {
+    "file": "Deployment.json",
+    "kind": "provenance.r5e.io/v2/Deployment",
+    "schemaRef": "bytes:sha256:7d06c95bc41582729ac3056206833a61b4961ab06032157c7e19f6defa60e049"
+  },
+  {
+    "file": "RootsChanged.json",
+    "kind": "provenance.r5e.io/v2/RootsChanged",
+    "schemaRef": "bytes:sha256:b4acf64c07b6ed09a6bafbe2177814849168e6518944c75cacd5e3e9368a35a5"
+  },
+  {
+    "file": "RootChangeApproval.json",
+    "kind": "provenance.r5e.io/v2/RootChangeApproval",
+    "schemaRef": "bytes:sha256:d25d4791ffdd796a8b016547a64ece78d2578a11bd87bc1ce0ee288658087fc7"
+  },
+  {
+    "file": "Endorsement.json",
+    "kind": "provenance.r5e.io/v2/Endorsement",
+    "schemaRef": "bytes:sha256:25a802c436e18b540a6028351d9ccd0220203e7f573559e747b70e5080de0874"
+  },
+  {
+    "file": "RetentionHold.json",
+    "kind": "provenance.r5e.io/v2/RetentionHold",
+    "schemaRef": "bytes:sha256:491af058951f4a04c820ad24b47ffbb61fddffb0d5f67eba9a03ab847cbda200"
+  },
+  {
+    "file": "RetentionHoldRelease.json",
+    "kind": "provenance.r5e.io/v2/RetentionHoldRelease",
+    "schemaRef": "bytes:sha256:ab826882dacdcda5965599e4f43529fa14324c591ddb9529aa516d8d6471c9f7"
+  },
+  {
+    "file": "PayloadDisposition.json",
+    "kind": "provenance.r5e.io/v2/PayloadDisposition",
+    "schemaRef": "bytes:sha256:7732f7fa03cfe72ab97c4197f01c84bf07f0e92348f7e8b4c1756f7ea0a85132"
+  },
+  {
+    "file": "Disclosure.json",
+    "kind": "provenance.r5e.io/v2/Disclosure",
+    "schemaRef": "bytes:sha256:39ea7a64cc25d4aa26360c0d5e9e57c83034df676e941a36244c84ea60842004"
+  },
+  {
+    "file": "Succession.json",
+    "kind": "provenance.r5e.io/v2/Succession",
+    "schemaRef": "bytes:sha256:3ea26dd1bb13b6bf6b41ad8f169a734a38be2cc947de77587d70e2eb75bf92d9"
+  }
+]

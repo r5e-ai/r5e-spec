@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "key:ed25519:sha256:6567b5cfc020ec8e0dc334ff23e6c9d7fb9a63b7cf83f1af989f5e19c03a9edb",
+      "category": "cryptographic_proof",
+      "check": "release_request_approvals",
+      "code": "approval_signature_invalid",
+      "layer": 2,
+      "result": "failed",
+      "subject": "evidence:sha256:5b87db8d3017304a04aba33f4de56b02e3bb51e30e592b36127d1805cef6b835"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "copy-b",
+      "category": "cryptographic_proof",
+      "check": "erasure_l2_proof",
+      "code": "erasure_copy_confirmation_pending",
+      "layer": 3,
+      "result": "incomplete",
+      "subject": "evidence:sha256:866b368a534287f067a8b96cf58d618a07334d21ba2480f84409fe57ca15c689"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "incomplete"
+}

@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": null,
+      "category": "cryptographic_proof",
+      "check": "succession_recovery",
+      "code": "succession_recovery_threshold_not_met",
+      "layer": 2,
+      "result": "failed",
+      "subject": "evidence:sha256:98af6855524a67c71be07f9ee402f40ab1087dada642f5f8542c50677d650a53"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

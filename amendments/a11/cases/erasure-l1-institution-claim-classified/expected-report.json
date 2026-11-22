@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "urn:r5e:session:a11-0001",
+      "category": "institutional_assertion",
+      "check": "erasure_l2_proof",
+      "code": "ok",
+      "layer": 3,
+      "result": "ok",
+      "subject": "evidence:sha256:7a1dc6da69724307e1058b3067f4b8813fa4bc8ab0e18c67a6247d6f8ffa4945"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "ok"
+}

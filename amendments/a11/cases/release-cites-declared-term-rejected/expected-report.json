@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "term-no-sharing",
+      "category": "mechanical_check",
+      "check": "basis_declared_power",
+      "code": "act_cites_declared_or_absent_power",
+      "layer": 3,
+      "result": "failed",
+      "subject": "evidence:sha256:a59bb8afe40c39ea6e88be5d5928e80da0824574149070a59c306acc129e14ff"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

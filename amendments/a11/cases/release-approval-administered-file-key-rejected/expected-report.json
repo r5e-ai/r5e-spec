@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "key:ed25519:sha256:9c1ccecda9c3e861fc6d89cdf9cad1dd5c66074d2d33cd027c0f46a105a278e9",
+      "category": "mechanical_check",
+      "check": "release_request_approvals",
+      "code": "approval_key_not_hardware",
+      "layer": 2,
+      "result": "failed",
+      "subject": "evidence:sha256:33e1565d8cc13b2679b12cc6005233b4ffe36dad61b6cf98274cff87832d7932"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

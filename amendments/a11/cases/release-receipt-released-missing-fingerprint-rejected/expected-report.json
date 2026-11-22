@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": null,
+      "category": "mechanical_check",
+      "check": "release_receipt_fingerprint",
+      "code": "released_fingerprint_missing",
+      "layer": 2,
+      "result": "failed",
+      "subject": "evidence:sha256:32d208ed758c3489aa9b4604a74ad657becff2941162375f231f1f36e029338a"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

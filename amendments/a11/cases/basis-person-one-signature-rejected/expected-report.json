@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "basis_missing_counter_signature",
+      "layer": 2,
+      "result": "failed",
+      "subject": "evidence:sha256:4ca15d9f9192baa7dd034e3d0190768f03a9ecf1ef9393571587f9a202c0bb5d"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

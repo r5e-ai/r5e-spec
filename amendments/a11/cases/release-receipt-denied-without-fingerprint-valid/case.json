@@ -1,0 +1,15 @@
+{
+  "description": "V6: ReleaseReceipt with outcome=denied and no releasedFingerprint passes.",
+  "minStartSeq": null,
+  "name": "release-receipt-denied-without-fingerprint-valid",
+  "trustedChain": "evidence:sha256:1211a4063cad4a865fa7994f9c7d20d1c2f026b178ad738066384c68fb06a3f6",
+  "trustedProfiles": [
+    "bytes:sha256:52f7f69502e281b98f8afb500e55730dbc2418a2fd8ea33c31189e3ebe669f24",
+    "bytes:sha256:a4d37e96656c607fc3f44be49ee72215cc1eeb044aaccc118f1452df38e4d986",
+    "bytes:sha256:562518e07d4e4dfdfe490f861c2d90ba5dd3d4f8689506acd75b93c3d3212174"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:28f34857f9dc6f4b5f887e7091ffbc70d7ba5a7e2320148714f8f33fcab9e486"
+  ],
+  "trustedRoots": null
+}

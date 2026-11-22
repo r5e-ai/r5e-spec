@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "bytes:sha256+salt:f45e42528709453cb798eb7f95878da1432ce88c53b1e826aaaccc5ff090a498",
+      "category": "unavailable_evidence",
+      "check": "salted_content_ref",
+      "code": "unavailable_evidence",
+      "layer": 1,
+      "result": "incomplete",
+      "subject": "evidence:sha256:482ce954a5da2caeed6eaeb8c6f086eb1296124ff7eb303952ea44594fe533ba"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "incomplete"
+}
