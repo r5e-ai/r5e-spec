@@ -3,13 +3,13 @@
   "baselineClean": true,
   "expectedA11Findings": [
     {
-      "about": "evidence:sha256:4ca15d9f9192baa7dd034e3d0190768f03a9ecf1ef9393571587f9a202c0bb5d",
+      "about": "evidence:sha256:132a79360fa9ec9ec92cdc2b32a566011c63063ccca636ddb2bc87fec6940a81",
       "category": "mechanical_check",
       "check": "basis_overlay_order",
       "code": "ok",
       "layer": 3,
       "result": "ok",
-      "subject": "evidence:sha256:13646e70a37542fb2a6b83154538f17728960ca771b40ecb35db66b0258c1b2d"
+      "subject": "evidence:sha256:185666fd501e88d5f6bd1ce7036606582a7ecea05fc6cff0ddd36a23f0a03c84"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

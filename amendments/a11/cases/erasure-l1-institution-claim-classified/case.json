@@ -2,7 +2,7 @@
   "description": "V8: Level 1 ErasureAnswer with institution_claim passes and is classified as institutional_assertion.",
   "minStartSeq": null,
   "name": "erasure-l1-institution-claim-classified",
-  "trustedChain": "evidence:sha256:e8366749309ed3cbbbeb0d8af06125792409c6ffca2455875b848dad0d67525f",
+  "trustedChain": "evidence:sha256:bdc842aac382b127c8d27b967f6b585e3e7649d58920226d025b97ab928805aa",
   "trustedProfiles": [
     "bytes:sha256:52f7f69502e281b98f8afb500e55730dbc2418a2fd8ea33c31189e3ebe669f24",
     "bytes:sha256:a4d37e96656c607fc3f44be49ee72215cc1eeb044aaccc118f1452df38e4d986",

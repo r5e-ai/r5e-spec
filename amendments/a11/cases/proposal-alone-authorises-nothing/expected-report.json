@@ -3,13 +3,13 @@
   "baselineClean": true,
   "expectedA11Findings": [
     {
-      "about": "evidence:sha256:7d92c640de62fba290e71d80ad3dcb0918876863cb5077f577e06c411adeec28",
+      "about": "evidence:sha256:1cf05eac5dabd8fe7cfd1742dea13fa9af5ad08d9fc886251105d071121870c8",
       "category": "mechanical_check",
       "check": "basis_declared_power",
       "code": "proposal_authorises_nothing",
       "layer": 3,
       "result": "failed",
-      "subject": "evidence:sha256:afe71a2400f9fe0d0d3500f17deaa409e64b708937cc9799c98ff8e153d4d902"
+      "subject": "evidence:sha256:23f6bc5dfd4dd04ec51b3913531fe08f0164ec8c26129e2dcd6c6c5a05efb54f"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

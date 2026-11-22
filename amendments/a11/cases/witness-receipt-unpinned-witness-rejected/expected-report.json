@@ -9,7 +9,7 @@
       "code": "witness_unpinned",
       "layer": 3,
       "result": "failed",
-      "subject": "evidence:sha256:12fab22d4ba5593f83118ffcb3fefab56d219f2af2c2698759b0e4e1d4308d33"
+      "subject": "evidence:sha256:2282af7767171a515630bce86d7b5a884d8fff8b0044ec2f3519dcc31332a83a"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

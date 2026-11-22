@@ -9,7 +9,7 @@
       "code": "unrecorded_plaintext_in_bundle",
       "layer": 3,
       "result": "failed",
-      "subject": "evidence:sha256:89f690056abcdc6eed9d55eea3e30875975d1d1af5af9741aee1b6874610f759"
+      "subject": "evidence:sha256:cef12aa40a44d71482d2bb986b800626a7ca4acc4e35a0177c50197263dab6d9"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

@@ -2,7 +2,7 @@
   "description": "V10: Level 1 key-service unlockLog entry lacking a matching release record fails.",
   "minStartSeq": null,
   "name": "l1-unlock-without-release-flagged",
-  "trustedChain": "evidence:sha256:84cfce68d30507429f339762f5abf4b65c5dde8a8232bcaa5f2f537706739dd4",
+  "trustedChain": "evidence:sha256:d52e5ea1ce555d3ee09285f4c9206f31d1e23525baebfcb43c1d50e78d540617",
   "trustedProfiles": [
     "bytes:sha256:52f7f69502e281b98f8afb500e55730dbc2418a2fd8ea33c31189e3ebe669f24",
     "bytes:sha256:a4d37e96656c607fc3f44be49ee72215cc1eeb044aaccc118f1452df38e4d986",

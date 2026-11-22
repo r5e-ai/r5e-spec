@@ -2,7 +2,7 @@
   "description": "V8: Level 2 ErasureAnswer with valid proofs from all sealedServiceCopies passes as cryptographic_proof.",
   "minStartSeq": null,
   "name": "erasure-l2-all-copies-confirmed-valid",
-  "trustedChain": "evidence:sha256:1211a4063cad4a865fa7994f9c7d20d1c2f026b178ad738066384c68fb06a3f6",
+  "trustedChain": "evidence:sha256:52f846cd650dc212a231e8a0447667d6a5d97290a45987c83c391ec253f8dabf",
   "trustedProfiles": [
     "bytes:sha256:52f7f69502e281b98f8afb500e55730dbc2418a2fd8ea33c31189e3ebe669f24",
     "bytes:sha256:a4d37e96656c607fc3f44be49ee72215cc1eeb044aaccc118f1452df38e4d986",

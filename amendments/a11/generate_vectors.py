@@ -441,8 +441,7 @@ class BundleBuilder:
             "seq": seq,
             "stream": stream,
         }
-        if prev is not None:
-            payload["previous"] = prev
+        payload["previous"] = prev
         if session is not None:
             payload["session"] = session
         if causes:
@@ -483,7 +482,6 @@ class BundleBuilder:
     ) -> str:
         self.add_key(subject_key)
         body: dict[str, Any] = {
-            "actsFor": acts_for,
             "kinds": sorted(set(kinds)),
             "mayEndorse": False,
             "notAfter": "2027-11-22T00:00:00Z",
@@ -657,7 +655,8 @@ class BundleBuilder:
         }
         sig = wkey.sign(b"r5e-witness-receipt-v1\x00" + encode_canonical_json(unsigned))
         receipt = {**unsigned, "signature": sig}
-        receipt_ref = bytes_ref(encode_canonical_json(receipt))
+        receipt_bytes = encode_canonical_json(receipt)
+        receipt_ref = self.add_blob(receipt_bytes)
         self.witness_receipts[receipt_ref] = receipt
         return receipt_ref
 
@@ -1200,7 +1199,7 @@ def build_all_cases() -> list[tuple[str, str, dict[str, Any], dict[str, Any], di
     basis_ref = b.add_basis(subjects=[PERSON_1_URI], signers=[KEYS["institution"], KEYS["person1"]])
     req_ref = b.add_release_request(basis_ref=basis_ref)
     w_ref = b.add_witness_receipt(request_ref=req_ref)
-    fp = bytes_ref(b"released-encrypted-package-v1")
+    fp = b.add_blob(b"released-encrypted-package-v1")
     rcpt_ref = b.add_release_receipt(
         request_ref=req_ref,
         outcome="released",
@@ -1232,7 +1231,7 @@ def build_all_cases() -> list[tuple[str, str, dict[str, Any], dict[str, Any], di
     basis_ref = b.add_basis(subjects=[PERSON_1_URI], signers=[KEYS["institution"], KEYS["person1"]])
     req_ref = b.add_release_request(basis_ref=basis_ref)
     w_ref = b.add_witness_receipt(request_ref=req_ref, mismatch_hash=True)
-    fp = bytes_ref(b"released-encrypted-package-v1")
+    fp = b.add_blob(b"released-encrypted-package-v1")
     rcpt_ref = b.add_release_receipt(
         request_ref=req_ref,
         outcome="released",
@@ -1264,7 +1263,7 @@ def build_all_cases() -> list[tuple[str, str, dict[str, Any], dict[str, Any], di
     basis_ref = b.add_basis(subjects=[PERSON_1_URI], signers=[KEYS["institution"], KEYS["person1"]])
     req_ref = b.add_release_request(basis_ref=basis_ref)
     w_ref = b.add_witness_receipt(request_ref=req_ref, witness_key=KEYS["rogue_witness"])
-    fp = bytes_ref(b"released-encrypted-package-v1")
+    fp = b.add_blob(b"released-encrypted-package-v1")
     rcpt_ref = b.add_release_receipt(
         request_ref=req_ref,
         outcome="released",
@@ -1299,7 +1298,7 @@ def build_all_cases() -> list[tuple[str, str, dict[str, Any], dict[str, Any], di
     basis_ref = b.add_basis(subjects=[PERSON_1_URI], signers=[KEYS["institution"], KEYS["person1"]])
     req_ref = b.add_release_request(basis_ref=basis_ref)
     w_ref = b.add_witness_receipt(request_ref=req_ref)
-    fp = bytes_ref(b"released-encrypted-package-v1")
+    fp = b.add_blob(b"released-encrypted-package-v1")
     rcpt_ref = b.add_release_receipt(
         request_ref=req_ref,
         outcome="released",
@@ -1785,6 +1784,13 @@ def build_all_cases() -> list[tuple[str, str, dict[str, Any], dict[str, Any], di
 
     # 32. checkpoint-forked-flagged
     b = BundleBuilder(custody_level=2)
+    b.endorse(
+        subject_key=KEYS["checkpoint"],
+        kinds=["provenance.r5e.io/v2/Checkpoint"],
+        acts_for=f"urn:r5e:node:{DEPLOYMENT_NAME}",
+        role="checkpointer",
+        captured_at="2026-11-22T11:02:30Z",
+    )
     ckpt_ref = b.add_record(
         kind="Checkpoint",
         stream=CKPT_STREAM,
