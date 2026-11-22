@@ -1,0 +1,26 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "bytes:sha256+salt:99b886a40c67144e18f601ced49c2821418650372c374e7019528c38928165d8",
+      "category": "cryptographic_proof",
+      "check": "salted_content_ref",
+      "code": "ok",
+      "layer": 1,
+      "result": "ok",
+      "subject": "evidence:sha256:63e16c5c808c546c4cbc8f42b84c240040912fd53cc9196baaa8d7b4f583c79d"
+    },
+    {
+      "about": "bytes:sha256+salt:99b886a40c67144e18f601ced49c2821418650372c374e7019528c38928165d8",
+      "category": "mechanical_check",
+      "check": "checkpoint_and_unlock_log",
+      "code": "unrecorded_plaintext_in_bundle",
+      "layer": 3,
+      "result": "failed",
+      "subject": "evidence:sha256:63e16c5c808c546c4cbc8f42b84c240040912fd53cc9196baaa8d7b4f583c79d"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Wire validation: malformed nested entries in pinnedCheckpoints, unlockLog, and saltedContent fail with malformed_bundle without crashing.",
+  "minStartSeq": null,
+  "name": "malformed-a11-export-members-rejected",
+  "trustedChain": "evidence:sha256:2e10356ff5d946bcc80c14fcf7920f27c7e37b9898286b98c7e02dd4961d5323",
+  "trustedProfiles": [
+    "bytes:sha256:52f7f69502e281b98f8afb500e55730dbc2418a2fd8ea33c31189e3ebe669f24",
+    "bytes:sha256:1ac84ad09f665a3e39c90f6808966b5988ad1380f1cfe85ba062fa564cd879e6",
+    "bytes:sha256:da8fb658bb0307eddd32c681a904d266544d0789fcd96b3112ee00305674bebd"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:28f34857f9dc6f4b5f887e7091ffbc70d7ba5a7e2320148714f8f33fcab9e486"
+  ],
+  "trustedRoots": null
+}

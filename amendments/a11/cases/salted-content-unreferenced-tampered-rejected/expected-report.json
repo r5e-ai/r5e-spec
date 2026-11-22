@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "bytes:sha256+salt:0000000000000000000000000000000000000000000000000000000000000000",
+      "category": "cryptographic_proof",
+      "check": "salted_content_ref",
+      "code": "salted_content_digest_mismatch",
+      "layer": 1,
+      "result": "failed",
+      "subject": "bytes:sha256+salt:0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

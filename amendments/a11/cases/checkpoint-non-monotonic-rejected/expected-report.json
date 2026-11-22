@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "seq:1",
+      "category": "cryptographic_proof",
+      "check": "checkpoint_and_unlock_log",
+      "code": "checkpoint_fork_or_stale",
+      "layer": 3,
+      "result": "failed",
+      "subject": "evidence:sha256:955456de906c789c32dcd2a9f85763a4a2a44a808bd49f25711a886ba4ca220d"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

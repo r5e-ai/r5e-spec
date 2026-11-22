@@ -6,10 +6,19 @@
       "about": "bytes:sha256+salt:f45e42528709453cb798eb7f95878da1432ce88c53b1e826aaaccc5ff090a498",
       "category": "unavailable_evidence",
       "check": "salted_content_ref",
-      "code": "unavailable_evidence",
+      "code": "salted_content_omitted",
       "layer": 1,
       "result": "incomplete",
-      "subject": "evidence:sha256:ebf4127b0b93439183f07982cb9cff15e0f5cf438cfc65518cd7cd7a4865d6af"
+      "subject": "evidence:sha256:c251a0aaf9466015bb692dc7b283ba0956c21dec1813fe1cee7930bba754f76d"
+    },
+    {
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:c251a0aaf9466015bb692dc7b283ba0956c21dec1813fe1cee7930bba754f76d"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

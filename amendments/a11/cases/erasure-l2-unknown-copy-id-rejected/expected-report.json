@@ -9,7 +9,7 @@
       "code": "erasure_unknown_copy_id",
       "layer": 3,
       "result": "failed",
-      "subject": "evidence:sha256:65fa6abf22d700c28744e6a6c971179a91275ba7360b12b37a5a50264663e604"
+      "subject": "evidence:sha256:ba59082c0504ca8f8a0b27c3c8bacb86425188734f473720a941dbc0fe66dc67"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

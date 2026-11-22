@@ -1,0 +1,44 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:45e216013f1ec8ff2dadcfefa522853ed58181dc9a143315a04b7884b4517462"
+    },
+    {
+      "about": "unlisted_role",
+      "category": "mechanical_check",
+      "check": "release_request_approvals",
+      "code": "approval_role_unlisted",
+      "layer": 2,
+      "result": "failed",
+      "subject": "evidence:sha256:af4e5c4f9bf533ef5d39e5dec840ceaf9cd625e917cba531c2da183c993d7c16"
+    },
+    {
+      "about": "evidence:sha256:45e216013f1ec8ff2dadcfefa522853ed58181dc9a143315a04b7884b4517462",
+      "category": "mechanical_check",
+      "check": "basis_declared_power",
+      "code": "ok",
+      "layer": 3,
+      "result": "ok",
+      "subject": "evidence:sha256:af4e5c4f9bf533ef5d39e5dec840ceaf9cd625e917cba531c2da183c993d7c16"
+    },
+    {
+      "about": "evidence:sha256:45e216013f1ec8ff2dadcfefa522853ed58181dc9a143315a04b7884b4517462",
+      "category": "mechanical_check",
+      "check": "basis_overlay_order",
+      "code": "ok",
+      "layer": 3,
+      "result": "ok",
+      "subject": "evidence:sha256:af4e5c4f9bf533ef5d39e5dec840ceaf9cd625e917cba531c2da183c993d7c16"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

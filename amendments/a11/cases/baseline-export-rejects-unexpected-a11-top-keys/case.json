@@ -1,0 +1,15 @@
+{
+  "description": "Baseline export validation rejects stray A11 top-level keys with malformed_bundle.",
+  "minStartSeq": null,
+  "mode": "baseline",
+  "name": "baseline-export-rejects-unexpected-a11-top-keys",
+  "trustedChain": "evidence:sha256:1278671cd2788982fa045eced1f06a7bbf0b120477f3a1dae4fcbeee33879823",
+  "trustedProfiles": [
+    "bytes:sha256:52f7f69502e281b98f8afb500e55730dbc2418a2fd8ea33c31189e3ebe669f24",
+    "bytes:sha256:1ac84ad09f665a3e39c90f6808966b5988ad1380f1cfe85ba062fa564cd879e6"
+  ],
+  "trustedPublishers": [
+    "key:ed25519:sha256:28f34857f9dc6f4b5f887e7091ffbc70d7ba5a7e2320148714f8f33fcab9e486"
+  ],
+  "trustedRoots": null
+}

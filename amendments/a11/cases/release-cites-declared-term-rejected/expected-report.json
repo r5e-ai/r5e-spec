@@ -3,13 +3,22 @@
   "baselineClean": true,
   "expectedA11Findings": [
     {
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:6039be2e2e61903d1cb790247527c21afffc2a3e27d196b2d350629bc2358780"
+    },
+    {
       "about": "term-no-sharing",
       "category": "mechanical_check",
       "check": "basis_declared_power",
       "code": "act_cites_declared_or_absent_power",
       "layer": 3,
       "result": "failed",
-      "subject": "evidence:sha256:541ea7828e909de62486896fe76be22ab088ee2bbbd9f1ac7fef0a2c813c20c2"
+      "subject": "evidence:sha256:5a4124f25bbb3c67ea6e665528506839b2fb6e3e87ef33237bc1c4546cfa7791"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

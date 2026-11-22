@@ -1,0 +1,44 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "key:ed25519:sha256:6567b5cfc020ec8e0dc334ff23e6c9d7fb9a63b7cf83f1af989f5e19c03a9edb",
+      "category": "cryptographic_proof",
+      "check": "release_request_approvals",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:136fa8324dd02cb4313959eee480e6807265abffb556f92c8da2980aefb20ddc"
+    },
+    {
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:1fb36cb7dd21fa604c00cc220003db922f4539173432f20963a3187432849ce2"
+    },
+    {
+      "about": "evidence:sha256:1fb36cb7dd21fa604c00cc220003db922f4539173432f20963a3187432849ce2",
+      "category": "mechanical_check",
+      "check": "basis_declared_power",
+      "code": "ok",
+      "layer": 3,
+      "result": "ok",
+      "subject": "evidence:sha256:136fa8324dd02cb4313959eee480e6807265abffb556f92c8da2980aefb20ddc"
+    },
+    {
+      "about": "case_closed_externally",
+      "category": "unavailable_evidence",
+      "check": "basis_overlay_order",
+      "code": "until_event_unverified",
+      "layer": 3,
+      "result": "incomplete",
+      "subject": "evidence:sha256:136fa8324dd02cb4313959eee480e6807265abffb556f92c8da2980aefb20ddc"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "incomplete"
+}

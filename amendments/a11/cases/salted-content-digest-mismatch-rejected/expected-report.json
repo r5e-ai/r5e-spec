@@ -9,7 +9,16 @@
       "code": "salted_content_digest_mismatch",
       "layer": 1,
       "result": "failed",
-      "subject": "evidence:sha256:ebf4127b0b93439183f07982cb9cff15e0f5cf438cfc65518cd7cd7a4865d6af"
+      "subject": "evidence:sha256:c251a0aaf9466015bb692dc7b283ba0956c21dec1813fe1cee7930bba754f76d"
+    },
+    {
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:c251a0aaf9466015bb692dc7b283ba0956c21dec1813fe1cee7930bba754f76d"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

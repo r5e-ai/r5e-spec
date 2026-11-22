@@ -1,0 +1,7 @@
+{
+  "amendment": "A11",
+  "baselineClean": false,
+  "expectedA11Findings": [],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

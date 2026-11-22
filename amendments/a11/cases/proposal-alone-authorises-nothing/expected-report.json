@@ -3,13 +3,22 @@
   "baselineClean": true,
   "expectedA11Findings": [
     {
-      "about": "evidence:sha256:1cf05eac5dabd8fe7cfd1742dea13fa9af5ad08d9fc886251105d071121870c8",
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:c978e8c60d2ebfca9221ea2b40e2ee9fc15782072dac19f0712b6c929f7fb1ea"
+    },
+    {
+      "about": "evidence:sha256:a6b632a93959f52e7ba347c485a7087051a951c4e7037176f71ebec2e7a86e25",
       "category": "mechanical_check",
       "check": "basis_declared_power",
       "code": "proposal_authorises_nothing",
       "layer": 3,
       "result": "failed",
-      "subject": "evidence:sha256:23f6bc5dfd4dd04ec51b3913531fe08f0164ec8c26129e2dcd6c6c5a05efb54f"
+      "subject": "evidence:sha256:8518ce5d728f3dc6a308178cb059ad4d793ad8bf0946ce04bedf4eaf47cacd7d"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

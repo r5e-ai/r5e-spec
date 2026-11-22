@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": false,
+  "expectedA11Findings": [
+    {
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:028eddef45a896929220b4da44b04957daf6bfa153f79e987b38714f9e8f5718"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

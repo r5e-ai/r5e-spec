@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "evidence:sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "category": "unavailable_evidence",
+      "check": "basis_declared_power",
+      "code": "basis_ref_missing",
+      "layer": 3,
+      "result": "incomplete",
+      "subject": "evidence:sha256:5f0d587a069f95458c1f5e8582eaa150f20c1373ec6d8c5f99783c95ddc21caf"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "incomplete"
+}

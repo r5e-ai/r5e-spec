@@ -1,0 +1,53 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:c978e8c60d2ebfca9221ea2b40e2ee9fc15782072dac19f0712b6c929f7fb1ea"
+    },
+    {
+      "about": "disclose",
+      "category": "mechanical_check",
+      "check": "basis_declared_power",
+      "code": "act_cites_declared_or_absent_power",
+      "layer": 3,
+      "result": "failed",
+      "subject": "evidence:sha256:a6da183262666b010e8ead2369d7b2b3c631b1eb1da474f3b5166e84a59a0246"
+    },
+    {
+      "about": "evidence:sha256:c978e8c60d2ebfca9221ea2b40e2ee9fc15782072dac19f0712b6c929f7fb1ea",
+      "category": "mechanical_check",
+      "check": "basis_overlay_order",
+      "code": "ok",
+      "layer": 3,
+      "result": "ok",
+      "subject": "evidence:sha256:a6da183262666b010e8ead2369d7b2b3c631b1eb1da474f3b5166e84a59a0246"
+    },
+    {
+      "about": "disclose",
+      "category": "mechanical_check",
+      "check": "basis_declared_power",
+      "code": "act_cites_declared_or_absent_power",
+      "layer": 3,
+      "result": "failed",
+      "subject": "evidence:sha256:eb5536e419d6d2c625930c7c25e5cb167b56030033867217abde8e02ebcb456c"
+    },
+    {
+      "about": "evidence:sha256:c978e8c60d2ebfca9221ea2b40e2ee9fc15782072dac19f0712b6c929f7fb1ea",
+      "category": "mechanical_check",
+      "check": "basis_overlay_order",
+      "code": "ok",
+      "layer": 3,
+      "result": "ok",
+      "subject": "evidence:sha256:eb5536e419d6d2c625930c7c25e5cb167b56030033867217abde8e02ebcb456c"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

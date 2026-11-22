@@ -1,0 +1,26 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "bytes:sha256+salt:c2e10d7251fd425c184f11b496531f5e2ff2810993a5a81baaa3bc22b3bb68ed",
+      "category": "cryptographic_proof",
+      "check": "salted_content_ref",
+      "code": "ok",
+      "layer": 1,
+      "result": "ok",
+      "subject": "evidence:sha256:5689162a060480261004ee826c8b58648f8f35add906867b63cf526d6ab6188f"
+    },
+    {
+      "about": "bytes:sha256+salt:8e77945f7d4ac57ae3258cb966293e86facddd63d5f66f12b198ddf51ca1119d",
+      "category": "cryptographic_proof",
+      "check": "salted_content_ref",
+      "code": "ok",
+      "layer": 1,
+      "result": "ok",
+      "subject": "evidence:sha256:e965b24b9331b66961aa724e7d148435a3e32cba10f4e7490a400ed9faf22818"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "ok"
+}

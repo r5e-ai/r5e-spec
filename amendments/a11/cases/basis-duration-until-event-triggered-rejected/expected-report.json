@@ -1,0 +1,44 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "key:ed25519:sha256:6567b5cfc020ec8e0dc334ff23e6c9d7fb9a63b7cf83f1af989f5e19c03a9edb",
+      "category": "cryptographic_proof",
+      "check": "release_request_approvals",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:126f87fe56509cb628ee9198f07b8484cc962a6e8492595b4e5527eef4b76afa"
+    },
+    {
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:8318d970e0e93456e766a7a393a21fdba9a6e651b9135f99363c505e36661523"
+    },
+    {
+      "about": "evidence:sha256:8318d970e0e93456e766a7a393a21fdba9a6e651b9135f99363c505e36661523",
+      "category": "mechanical_check",
+      "check": "basis_declared_power",
+      "code": "ok",
+      "layer": 3,
+      "result": "ok",
+      "subject": "evidence:sha256:126f87fe56509cb628ee9198f07b8484cc962a6e8492595b4e5527eef4b76afa"
+    },
+    {
+      "about": "evidence:sha256:64ba74fae3ba5aa5ab80871810486f19375407ef60647fbf800450c29b801871",
+      "category": "mechanical_check",
+      "check": "basis_overlay_order",
+      "code": "basis_power_withdrawn_or_expired",
+      "layer": 3,
+      "result": "failed",
+      "subject": "evidence:sha256:126f87fe56509cb628ee9198f07b8484cc962a6e8492595b4e5527eef4b76afa"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

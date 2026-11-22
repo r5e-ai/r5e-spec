@@ -1,0 +1,35 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:6e6a4c9a7f5a544e91660bc127ae0ccf682e022ba4e992cc3fd3cad4861a6f42"
+    },
+    {
+      "about": "evidence:sha256:6e6a4c9a7f5a544e91660bc127ae0ccf682e022ba4e992cc3fd3cad4861a6f42",
+      "category": "mechanical_check",
+      "check": "basis_declared_power",
+      "code": "retention_hold_missing_review_at",
+      "layer": 3,
+      "result": "failed",
+      "subject": "evidence:sha256:8d09124ebbb431660cce2d1c0d95ed029ed887f54cb43f6fd39af883fc02401a"
+    },
+    {
+      "about": "evidence:sha256:6e6a4c9a7f5a544e91660bc127ae0ccf682e022ba4e992cc3fd3cad4861a6f42",
+      "category": "mechanical_check",
+      "check": "basis_overlay_order",
+      "code": "ok",
+      "layer": 3,
+      "result": "ok",
+      "subject": "evidence:sha256:8d09124ebbb431660cce2d1c0d95ed029ed887f54cb43f6fd39af883fc02401a"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

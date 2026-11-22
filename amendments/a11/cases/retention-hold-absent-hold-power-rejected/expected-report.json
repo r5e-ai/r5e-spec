@@ -1,0 +1,35 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:c978e8c60d2ebfca9221ea2b40e2ee9fc15782072dac19f0712b6c929f7fb1ea"
+    },
+    {
+      "about": "hold",
+      "category": "mechanical_check",
+      "check": "basis_declared_power",
+      "code": "act_cites_declared_or_absent_power",
+      "layer": 3,
+      "result": "failed",
+      "subject": "evidence:sha256:4abfdef35c244378f655492dc65052adfee036749bb05921fa56c7cb9d989088"
+    },
+    {
+      "about": "evidence:sha256:c978e8c60d2ebfca9221ea2b40e2ee9fc15782072dac19f0712b6c929f7fb1ea",
+      "category": "mechanical_check",
+      "check": "basis_overlay_order",
+      "code": "ok",
+      "layer": 3,
+      "result": "ok",
+      "subject": "evidence:sha256:4abfdef35c244378f655492dc65052adfee036749bb05921fa56c7cb9d989088"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

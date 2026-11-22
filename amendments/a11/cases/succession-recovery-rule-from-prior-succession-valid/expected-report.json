@@ -1,0 +1,26 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": null,
+      "category": "cryptographic_proof",
+      "check": "succession_recovery",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:7c633502bdb4e5ea9dfa6a3b39dfecff969ea75d3cb11c790af9ce9a986c47e0"
+    },
+    {
+      "about": null,
+      "category": "cryptographic_proof",
+      "check": "succession_recovery",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:d88f94c5b8db258353a0f332a4d84fbdc226a089540cb19c9c1f3bc8d78d5f75"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "ok"
+}

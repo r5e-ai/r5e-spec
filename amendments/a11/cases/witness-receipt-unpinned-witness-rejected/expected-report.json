@@ -3,13 +3,58 @@
   "baselineClean": true,
   "expectedA11Findings": [
     {
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:028eddef45a896929220b4da44b04957daf6bfa153f79e987b38714f9e8f5718"
+    },
+    {
+      "about": "bytes:sha256:70b9aa5bdf9fb1e3134d40ee6127f284b00d9f74ab4dc91619333e8781eb2232",
+      "category": "mechanical_check",
+      "check": "release_receipt_fingerprint",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:2b983c6165f55ea8aa7edb277e6c1b32ecd312b5a7350d6e260f0e63840d2bed"
+    },
+    {
+      "about": "key:ed25519:sha256:6567b5cfc020ec8e0dc334ff23e6c9d7fb9a63b7cf83f1af989f5e19c03a9edb",
+      "category": "cryptographic_proof",
+      "check": "release_request_approvals",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:b8f8736404276a3a5de9ae5eb0b55489f212ec7e6cd54e60d7ccf5aa626cff6a"
+    },
+    {
       "about": "key:ed25519:sha256:815b9e6c5bb3f289cad4588fb34b752656706daa60cf6ca1ac8e99423cb062c8",
       "category": "cryptographic_proof",
       "check": "witness_receipt_binding",
       "code": "witness_unpinned",
       "layer": 3,
       "result": "failed",
-      "subject": "evidence:sha256:2282af7767171a515630bce86d7b5a884d8fff8b0044ec2f3519dcc31332a83a"
+      "subject": "evidence:sha256:2b983c6165f55ea8aa7edb277e6c1b32ecd312b5a7350d6e260f0e63840d2bed"
+    },
+    {
+      "about": "evidence:sha256:028eddef45a896929220b4da44b04957daf6bfa153f79e987b38714f9e8f5718",
+      "category": "mechanical_check",
+      "check": "basis_declared_power",
+      "code": "ok",
+      "layer": 3,
+      "result": "ok",
+      "subject": "evidence:sha256:b8f8736404276a3a5de9ae5eb0b55489f212ec7e6cd54e60d7ccf5aa626cff6a"
+    },
+    {
+      "about": "evidence:sha256:028eddef45a896929220b4da44b04957daf6bfa153f79e987b38714f9e8f5718",
+      "category": "mechanical_check",
+      "check": "basis_overlay_order",
+      "code": "ok",
+      "layer": 3,
+      "result": "ok",
+      "subject": "evidence:sha256:b8f8736404276a3a5de9ae5eb0b55489f212ec7e6cd54e60d7ccf5aa626cff6a"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

@@ -3,13 +3,40 @@
   "baselineClean": true,
   "expectedA11Findings": [
     {
-      "about": "evidence:sha256:adfb8ce62d8b2c1047d9c184cd8da7e8ecc268ce6f7b40f3a9d63d147d538300",
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:028eddef45a896929220b4da44b04957daf6bfa153f79e987b38714f9e8f5718"
+    },
+    {
+      "about": "key:ed25519:sha256:6567b5cfc020ec8e0dc334ff23e6c9d7fb9a63b7cf83f1af989f5e19c03a9edb",
+      "category": "cryptographic_proof",
+      "check": "release_request_approvals",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:84f984a33ca8fd1ae0b60a845a70be755826f273796cf9908771eca56d0e84f7"
+    },
+    {
+      "about": "evidence:sha256:028eddef45a896929220b4da44b04957daf6bfa153f79e987b38714f9e8f5718",
+      "category": "mechanical_check",
+      "check": "basis_declared_power",
+      "code": "ok",
+      "layer": 3,
+      "result": "ok",
+      "subject": "evidence:sha256:84f984a33ca8fd1ae0b60a845a70be755826f273796cf9908771eca56d0e84f7"
+    },
+    {
+      "about": "evidence:sha256:cc5d0a6881157c0358a8b6421c69cb801b05347d68bcf74f74d6eea9a17b7463",
       "category": "mechanical_check",
       "check": "basis_overlay_order",
       "code": "basis_power_withdrawn_or_expired",
       "layer": 3,
       "result": "failed",
-      "subject": "evidence:sha256:a8720bb1457a1bb219fdb3cf57885c13ee1dc7f54d6456db34f70e45f957aa78"
+      "subject": "evidence:sha256:84f984a33ca8fd1ae0b60a845a70be755826f273796cf9908771eca56d0e84f7"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

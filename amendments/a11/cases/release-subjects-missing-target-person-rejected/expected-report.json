@@ -1,0 +1,53 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:028eddef45a896929220b4da44b04957daf6bfa153f79e987b38714f9e8f5718"
+    },
+    {
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:ca9c585b95e63c4b78cd1c6902bc8d424b814794e10a5a22594583c3b1daab91"
+    },
+    {
+      "about": "urn:r5e:subject:person-2",
+      "category": "mechanical_check",
+      "check": "release_request_approvals",
+      "code": "release_subjects_incomplete",
+      "layer": 2,
+      "result": "failed",
+      "subject": "evidence:sha256:d3a1fdeef3e0d4240af21f862ebd9e02a5103a0e3cbd288ca99d75a4646f70be"
+    },
+    {
+      "about": "urn:r5e:subject:person-2",
+      "category": "mechanical_check",
+      "check": "basis_declared_power",
+      "code": "basis_subjects_do_not_cover_targets",
+      "layer": 3,
+      "result": "failed",
+      "subject": "evidence:sha256:d3a1fdeef3e0d4240af21f862ebd9e02a5103a0e3cbd288ca99d75a4646f70be"
+    },
+    {
+      "about": "evidence:sha256:028eddef45a896929220b4da44b04957daf6bfa153f79e987b38714f9e8f5718",
+      "category": "mechanical_check",
+      "check": "basis_overlay_order",
+      "code": "ok",
+      "layer": 3,
+      "result": "ok",
+      "subject": "evidence:sha256:d3a1fdeef3e0d4240af21f862ebd9e02a5103a0e3cbd288ca99d75a4646f70be"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

@@ -2,11 +2,11 @@
   "description": "V7: Recovery-form Succession below recoveryRule.threshold (1-of-2) fails.",
   "minStartSeq": null,
   "name": "succession-recovery-threshold-short-rejected",
-  "trustedChain": "evidence:sha256:52f846cd650dc212a231e8a0447667d6a5d97290a45987c83c391ec253f8dabf",
+  "trustedChain": "evidence:sha256:2e10356ff5d946bcc80c14fcf7920f27c7e37b9898286b98c7e02dd4961d5323",
   "trustedProfiles": [
     "bytes:sha256:52f7f69502e281b98f8afb500e55730dbc2418a2fd8ea33c31189e3ebe669f24",
-    "bytes:sha256:a4d37e96656c607fc3f44be49ee72215cc1eeb044aaccc118f1452df38e4d986",
-    "bytes:sha256:562518e07d4e4dfdfe490f861c2d90ba5dd3d4f8689506acd75b93c3d3212174"
+    "bytes:sha256:1ac84ad09f665a3e39c90f6808966b5988ad1380f1cfe85ba062fa564cd879e6",
+    "bytes:sha256:da8fb658bb0307eddd32c681a904d266544d0789fcd96b3112ee00305674bebd"
   ],
   "trustedPublishers": [
     "key:ed25519:sha256:28f34857f9dc6f4b5f887e7091ffbc70d7ba5a7e2320148714f8f33fcab9e486"

@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "urn:r5e:session:a11-0001",
+      "category": "cryptographic_proof",
+      "check": "erasure_l2_proof",
+      "code": "erasure_institution_claim_at_l2",
+      "layer": 3,
+      "result": "failed",
+      "subject": "evidence:sha256:30cd44ef333b59a05a0d80024429081a471bd97731e51baa9adcde043a82e3e6"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

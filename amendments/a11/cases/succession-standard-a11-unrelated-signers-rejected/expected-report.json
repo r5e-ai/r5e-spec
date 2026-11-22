@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": null,
+      "category": "cryptographic_proof",
+      "check": "succession_recovery",
+      "code": "succession_signer_mismatch",
+      "layer": 2,
+      "result": "failed",
+      "subject": "evidence:sha256:48dbb0b45d78a1a66da314fdc57c88d6730dea627f1695d483c6ea7b2d3e77ae"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}

@@ -4,12 +4,12 @@
   "expectedA11Findings": [
     {
       "about": "copy-b",
-      "category": "cryptographic_proof",
+      "category": "unavailable_evidence",
       "check": "erasure_l2_proof",
       "code": "erasure_copy_confirmation_pending",
       "layer": 3,
       "result": "incomplete",
-      "subject": "evidence:sha256:231309b25f43a28d3d8acefae84cec5256f9256071f8d63f094d69c6afc51412"
+      "subject": "evidence:sha256:ced74a8c3f7782a949d1f9bf5f8930981e483932c72ee3ef81093f3faf9be9b7"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

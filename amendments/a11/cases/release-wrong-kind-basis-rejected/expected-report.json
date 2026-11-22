@@ -1,0 +1,17 @@
+{
+  "amendment": "A11",
+  "baselineClean": true,
+  "expectedA11Findings": [
+    {
+      "about": "evidence:sha256:58d7cd2d4f165409ec86f18ab9bba34178d42d8caff0368de472c6c3ad847c9d",
+      "category": "mechanical_check",
+      "check": "basis_declared_power",
+      "code": "basis_ref_wrong_kind",
+      "layer": 3,
+      "result": "failed",
+      "subject": "evidence:sha256:10f8e9d1a108b689b981560dddc95798b7562da76d2ef434857d17928547c81b"
+    }
+  ],
+  "format": "r5e.provenance-verify-report/v2",
+  "verdict": "failed"
+}
