@@ -3,40 +3,40 @@
   "baselineClean": true,
   "expectedA11Findings": [
     {
-      "about": "key:ed25519:sha256:6567b5cfc020ec8e0dc334ff23e6c9d7fb9a63b7cf83f1af989f5e19c03a9edb",
-      "category": "cryptographic_proof",
-      "check": "release_request_approvals",
-      "code": "ok",
-      "layer": 2,
-      "result": "ok",
-      "subject": "evidence:sha256:126f87fe56509cb628ee9198f07b8484cc962a6e8492595b4e5527eef4b76afa"
-    },
-    {
       "about": null,
       "category": "mechanical_check",
       "check": "basis_signatures",
       "code": "ok",
       "layer": 2,
       "result": "ok",
-      "subject": "evidence:sha256:8318d970e0e93456e766a7a393a21fdba9a6e651b9135f99363c505e36661523"
+      "subject": "evidence:sha256:c9505f7de3e9d9626972eaad3fc3457dd865fbebe569eabcda9e77d249708004"
     },
     {
-      "about": "evidence:sha256:8318d970e0e93456e766a7a393a21fdba9a6e651b9135f99363c505e36661523",
+      "about": "key:ed25519:sha256:6567b5cfc020ec8e0dc334ff23e6c9d7fb9a63b7cf83f1af989f5e19c03a9edb",
+      "category": "cryptographic_proof",
+      "check": "release_request_approvals",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:d794c4c1df5516e625923ff90248c0b823bd1eac132d131ecae18ce4d02cac29"
+    },
+    {
+      "about": "evidence:sha256:c9505f7de3e9d9626972eaad3fc3457dd865fbebe569eabcda9e77d249708004",
       "category": "mechanical_check",
       "check": "basis_declared_power",
       "code": "ok",
       "layer": 3,
       "result": "ok",
-      "subject": "evidence:sha256:126f87fe56509cb628ee9198f07b8484cc962a6e8492595b4e5527eef4b76afa"
+      "subject": "evidence:sha256:d794c4c1df5516e625923ff90248c0b823bd1eac132d131ecae18ce4d02cac29"
     },
     {
-      "about": "evidence:sha256:64ba74fae3ba5aa5ab80871810486f19375407ef60647fbf800450c29b801871",
+      "about": "evidence:sha256:0ace320f890bc08eb94f08accfdf7b8174c7daaf818e5aeead01e35de63a38f7",
       "category": "mechanical_check",
       "check": "basis_overlay_order",
       "code": "basis_power_withdrawn_or_expired",
       "layer": 3,
       "result": "failed",
-      "subject": "evidence:sha256:126f87fe56509cb628ee9198f07b8484cc962a6e8492595b4e5527eef4b76afa"
+      "subject": "evidence:sha256:d794c4c1df5516e625923ff90248c0b823bd1eac132d131ecae18ce4d02cac29"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

@@ -3,13 +3,13 @@
   "baselineClean": true,
   "expectedA11Findings": [
     {
-      "about": "evidence:sha256:58d7cd2d4f165409ec86f18ab9bba34178d42d8caff0368de472c6c3ad847c9d",
+      "about": "evidence:sha256:e85279543abcfc285912897c7d99fc0d84622cbb6584cc7b565b58638987a3c6",
       "category": "cryptographic_proof",
       "check": "witness_receipt_binding",
       "code": "witness_request_wrong_kind",
       "layer": 3,
       "result": "failed",
-      "subject": "bytes:sha256:6047a7335de6133d5aafb98c6dd506907c361a1d806ae40e7db22a767667932c"
+      "subject": "bytes:sha256:1ce912f687ca52553642212944a640602be99ee9cf4dec4959166687e3f86af8"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

@@ -9,7 +9,7 @@
       "code": "ok",
       "layer": 1,
       "result": "ok",
-      "subject": "evidence:sha256:63e16c5c808c546c4cbc8f42b84c240040912fd53cc9196baaa8d7b4f583c79d"
+      "subject": "evidence:sha256:d9c3e6e520ee989ba13d315d4f731caffa755c3365fe01dc965284abdcfd8ff8"
     },
     {
       "about": "bytes:sha256+salt:99b886a40c67144e18f601ced49c2821418650372c374e7019528c38928165d8",
@@ -18,7 +18,7 @@
       "code": "unrecorded_plaintext_in_bundle",
       "layer": 3,
       "result": "failed",
-      "subject": "evidence:sha256:63e16c5c808c546c4cbc8f42b84c240040912fd53cc9196baaa8d7b4f583c79d"
+      "subject": "evidence:sha256:d9c3e6e520ee989ba13d315d4f731caffa755c3365fe01dc965284abdcfd8ff8"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

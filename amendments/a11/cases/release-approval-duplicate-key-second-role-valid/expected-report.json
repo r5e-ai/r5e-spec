@@ -3,40 +3,40 @@
   "baselineClean": true,
   "expectedA11Findings": [
     {
-      "about": null,
-      "category": "mechanical_check",
-      "check": "basis_signatures",
-      "code": "ok",
-      "layer": 2,
-      "result": "ok",
-      "subject": "evidence:sha256:028eddef45a896929220b4da44b04957daf6bfa153f79e987b38714f9e8f5718"
-    },
-    {
       "about": "key:ed25519:sha256:6567b5cfc020ec8e0dc334ff23e6c9d7fb9a63b7cf83f1af989f5e19c03a9edb",
       "category": "cryptographic_proof",
       "check": "release_request_approvals",
       "code": "ok",
       "layer": 2,
       "result": "ok",
-      "subject": "evidence:sha256:54f3975ee21baed9f706c47c673cf657226b47ca3eec1c16fe348b928330bebe"
+      "subject": "evidence:sha256:46190713aaf629e026250ee8de478896b7735123a5c24cca74a1bb73e0486d46"
     },
     {
-      "about": "evidence:sha256:028eddef45a896929220b4da44b04957daf6bfa153f79e987b38714f9e8f5718",
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:d9f1261989733ff839a4a1d68707033019da96d3d3f9df03af3271a03a589bbc"
+    },
+    {
+      "about": "evidence:sha256:d9f1261989733ff839a4a1d68707033019da96d3d3f9df03af3271a03a589bbc",
       "category": "mechanical_check",
       "check": "basis_declared_power",
       "code": "ok",
       "layer": 3,
       "result": "ok",
-      "subject": "evidence:sha256:54f3975ee21baed9f706c47c673cf657226b47ca3eec1c16fe348b928330bebe"
+      "subject": "evidence:sha256:46190713aaf629e026250ee8de478896b7735123a5c24cca74a1bb73e0486d46"
     },
     {
-      "about": "evidence:sha256:028eddef45a896929220b4da44b04957daf6bfa153f79e987b38714f9e8f5718",
+      "about": "evidence:sha256:d9f1261989733ff839a4a1d68707033019da96d3d3f9df03af3271a03a589bbc",
       "category": "mechanical_check",
       "check": "basis_overlay_order",
       "code": "ok",
       "layer": 3,
       "result": "ok",
-      "subject": "evidence:sha256:54f3975ee21baed9f706c47c673cf657226b47ca3eec1c16fe348b928330bebe"
+      "subject": "evidence:sha256:46190713aaf629e026250ee8de478896b7735123a5c24cca74a1bb73e0486d46"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

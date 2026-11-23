@@ -3,40 +3,40 @@
   "baselineClean": true,
   "expectedA11Findings": [
     {
-      "about": null,
-      "category": "mechanical_check",
-      "check": "basis_signatures",
-      "code": "ok",
-      "layer": 2,
-      "result": "ok",
-      "subject": "evidence:sha256:ad3a5a7b3224c006033051bc936f8b46eea9b19009dcf7a0fbb4bae4e8be737f"
-    },
-    {
       "about": "urn:r5e:subject:person-2",
       "category": "mechanical_check",
       "check": "release_request_approvals",
       "code": "release_subjects_incomplete",
       "layer": 2,
       "result": "failed",
-      "subject": "evidence:sha256:ec4dc568575d5f916e5f5f893c2337ec665d96e9d69f0e370de587f365986ee4"
+      "subject": "evidence:sha256:24d206dfd0c6cb3437688bb323e15f5eede4e9fa96b2ca7c6ec726f3496b98d9"
     },
     {
-      "about": "evidence:sha256:ad3a5a7b3224c006033051bc936f8b46eea9b19009dcf7a0fbb4bae4e8be737f",
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:2be8265f5979328250658de628cb331d881cbb20fb86c89a0be9337a2339f690"
+    },
+    {
+      "about": "evidence:sha256:2be8265f5979328250658de628cb331d881cbb20fb86c89a0be9337a2339f690",
       "category": "mechanical_check",
       "check": "basis_declared_power",
       "code": "ok",
       "layer": 3,
       "result": "ok",
-      "subject": "evidence:sha256:ec4dc568575d5f916e5f5f893c2337ec665d96e9d69f0e370de587f365986ee4"
+      "subject": "evidence:sha256:24d206dfd0c6cb3437688bb323e15f5eede4e9fa96b2ca7c6ec726f3496b98d9"
     },
     {
-      "about": "evidence:sha256:ad3a5a7b3224c006033051bc936f8b46eea9b19009dcf7a0fbb4bae4e8be737f",
+      "about": "evidence:sha256:2be8265f5979328250658de628cb331d881cbb20fb86c89a0be9337a2339f690",
       "category": "mechanical_check",
       "check": "basis_overlay_order",
       "code": "ok",
       "layer": 3,
       "result": "ok",
-      "subject": "evidence:sha256:ec4dc568575d5f916e5f5f893c2337ec665d96e9d69f0e370de587f365986ee4"
+      "subject": "evidence:sha256:24d206dfd0c6cb3437688bb323e15f5eede4e9fa96b2ca7c6ec726f3496b98d9"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

@@ -9,7 +9,7 @@
       "code": "basis_missing_counter_signature",
       "layer": 2,
       "result": "failed",
-      "subject": "evidence:sha256:b14a4285ebe6680ada7764f3d58ff81147876484458e9d1e8a7b1438c3290bcb"
+      "subject": "evidence:sha256:8cbb494346c47d533a769aa1d23cecff11e40a6b251b329f49d21b2286296002"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

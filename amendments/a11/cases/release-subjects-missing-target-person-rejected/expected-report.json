@@ -3,31 +3,31 @@
   "baselineClean": true,
   "expectedA11Findings": [
     {
-      "about": null,
-      "category": "mechanical_check",
-      "check": "basis_signatures",
-      "code": "ok",
-      "layer": 2,
-      "result": "ok",
-      "subject": "evidence:sha256:028eddef45a896929220b4da44b04957daf6bfa153f79e987b38714f9e8f5718"
-    },
-    {
-      "about": null,
-      "category": "mechanical_check",
-      "check": "basis_signatures",
-      "code": "ok",
-      "layer": 2,
-      "result": "ok",
-      "subject": "evidence:sha256:ca9c585b95e63c4b78cd1c6902bc8d424b814794e10a5a22594583c3b1daab91"
-    },
-    {
       "about": "urn:r5e:subject:person-2",
       "category": "mechanical_check",
       "check": "release_request_approvals",
       "code": "release_subjects_incomplete",
       "layer": 2,
       "result": "failed",
-      "subject": "evidence:sha256:d3a1fdeef3e0d4240af21f862ebd9e02a5103a0e3cbd288ca99d75a4646f70be"
+      "subject": "evidence:sha256:40e52d1c627ed6e5c380d2c68d9462b516cee331d2dac97c03bfe50088ee4f3d"
+    },
+    {
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:6734d8791b995a78cffcb107d6070cc4c22a5efc6fe6e6364665d0785db6d259"
+    },
+    {
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:d9f1261989733ff839a4a1d68707033019da96d3d3f9df03af3271a03a589bbc"
     },
     {
       "about": "urn:r5e:subject:person-2",
@@ -36,16 +36,16 @@
       "code": "basis_subjects_do_not_cover_targets",
       "layer": 3,
       "result": "failed",
-      "subject": "evidence:sha256:d3a1fdeef3e0d4240af21f862ebd9e02a5103a0e3cbd288ca99d75a4646f70be"
+      "subject": "evidence:sha256:40e52d1c627ed6e5c380d2c68d9462b516cee331d2dac97c03bfe50088ee4f3d"
     },
     {
-      "about": "evidence:sha256:028eddef45a896929220b4da44b04957daf6bfa153f79e987b38714f9e8f5718",
+      "about": "evidence:sha256:d9f1261989733ff839a4a1d68707033019da96d3d3f9df03af3271a03a589bbc",
       "category": "mechanical_check",
       "check": "basis_overlay_order",
       "code": "ok",
       "layer": 3,
       "result": "ok",
-      "subject": "evidence:sha256:d3a1fdeef3e0d4240af21f862ebd9e02a5103a0e3cbd288ca99d75a4646f70be"
+      "subject": "evidence:sha256:40e52d1c627ed6e5c380d2c68d9462b516cee331d2dac97c03bfe50088ee4f3d"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

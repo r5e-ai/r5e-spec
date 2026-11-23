@@ -3,40 +3,40 @@
   "baselineClean": true,
   "expectedA11Findings": [
     {
-      "about": null,
-      "category": "mechanical_check",
-      "check": "basis_signatures",
-      "code": "ok",
-      "layer": 2,
-      "result": "ok",
-      "subject": "evidence:sha256:028eddef45a896929220b4da44b04957daf6bfa153f79e987b38714f9e8f5718"
-    },
-    {
       "about": "urn:r5e:session:a11-0002",
       "category": "unavailable_evidence",
       "check": "release_request_approvals",
       "code": "release_target_missing",
       "layer": 2,
       "result": "incomplete",
-      "subject": "evidence:sha256:f61fd60dcf9c8ba5fc96c787ee289516fb19c5d41f84c6a8f940dda2a236e3c4"
+      "subject": "evidence:sha256:0544dd8ef0cd5b7dcdf1ec5f18e869476e6873502494493ddf82037f23dc0b36"
     },
     {
-      "about": "evidence:sha256:028eddef45a896929220b4da44b04957daf6bfa153f79e987b38714f9e8f5718",
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:d9f1261989733ff839a4a1d68707033019da96d3d3f9df03af3271a03a589bbc"
+    },
+    {
+      "about": "evidence:sha256:d9f1261989733ff839a4a1d68707033019da96d3d3f9df03af3271a03a589bbc",
       "category": "mechanical_check",
       "check": "basis_declared_power",
       "code": "ok",
       "layer": 3,
       "result": "ok",
-      "subject": "evidence:sha256:f61fd60dcf9c8ba5fc96c787ee289516fb19c5d41f84c6a8f940dda2a236e3c4"
+      "subject": "evidence:sha256:0544dd8ef0cd5b7dcdf1ec5f18e869476e6873502494493ddf82037f23dc0b36"
     },
     {
-      "about": "evidence:sha256:028eddef45a896929220b4da44b04957daf6bfa153f79e987b38714f9e8f5718",
+      "about": "evidence:sha256:d9f1261989733ff839a4a1d68707033019da96d3d3f9df03af3271a03a589bbc",
       "category": "mechanical_check",
       "check": "basis_overlay_order",
       "code": "ok",
       "layer": 3,
       "result": "ok",
-      "subject": "evidence:sha256:f61fd60dcf9c8ba5fc96c787ee289516fb19c5d41f84c6a8f940dda2a236e3c4"
+      "subject": "evidence:sha256:0544dd8ef0cd5b7dcdf1ec5f18e869476e6873502494493ddf82037f23dc0b36"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

@@ -9,7 +9,7 @@
       "code": "erasure_proof_invalid_or_missing_l2",
       "layer": 3,
       "result": "failed",
-      "subject": "evidence:sha256:2c45a1b648a9bb6e9224928e9553be305c955e241a291f90bc28a5427b939cc5"
+      "subject": "evidence:sha256:fc835af16531ee722526b07b0ff43690be852e5e57395ac1130a9b1c461bf080"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

@@ -249,6 +249,7 @@ class BundleBuilder:
         self.trusted_checkpoints: list[dict[str, Any]] | None = None
         self.chain_ref: str | None = None
         self.opened_sessions: set[str] = set()
+        self.key_acts_for: dict[str, str] = {}
 
         self._init_profiles_and_start()
 
@@ -505,6 +506,15 @@ class BundleBuilder:
                 "provenance.r5e.io/v2/Succession",
             ]
         )
+        if not self.baseline_only:
+            self.endorse(
+                subject_key=KEYS["institution"],
+                kinds=inst_kinds,
+                acts_for=None,
+                role="institution_recorder",
+                captured_at="2026-11-22T11:01:59Z",
+                use_baseline_schema=False,
+            )
         self.endorse(
             subject_key=KEYS["institution"],
             kinds=inst_kinds,
@@ -530,6 +540,7 @@ class BundleBuilder:
         seq_override: int | None = None,
         prev_override: str | None = None,
         corrupt_sig_index: int | None = None,
+        on_behalf_of: str | None = None,
     ) -> str:
         for kp in signers:
             self.add_key(kp)
@@ -562,6 +573,10 @@ class BundleBuilder:
             payload["session"] = session
         if causes:
             payload["causes"] = sorted(set(causes))
+        if on_behalf_of is not None:
+            payload["onBehalfOf"] = on_behalf_of
+        elif signers[0].keyid in self.key_acts_for:
+            payload["onBehalfOf"] = self.key_acts_for[signers[0].keyid]
 
         payload_bytes = encode_canonical_json(payload)
         rec_ref = "evidence:sha256:" + sha256_hex(payload_bytes)
@@ -590,7 +605,7 @@ class BundleBuilder:
         *,
         subject_key: KeyPair,
         kinds: list[str],
-        acts_for: str,
+        acts_for: str | None,
         role: str,
         captured_at: str,
         key_storage: str | None = None,
@@ -603,8 +618,9 @@ class BundleBuilder:
         use_baseline_schema: bool = False,
     ) -> str:
         self.add_key(subject_key)
+        if acts_for is not None:
+            self.key_acts_for[subject_key.keyid] = acts_for
         body: dict[str, Any] = {
-            "actsFor": acts_for,
             "kinds": sorted(set(kinds)),
             "mayEndorse": False,
             "notAfter": not_after,
@@ -612,6 +628,8 @@ class BundleBuilder:
             "role": role,
             "subject": subject_key.keyid,
         }
+        if acts_for is not None:
+            body["actsFor"] = acts_for
         if key_storage is not None:
             body["keyStorage"] = key_storage
         if hardware_attestation_ref is not None:
@@ -710,6 +728,11 @@ class BundleBuilder:
         if declared_terms is not None:
             body["declaredTerms"] = declared_terms
 
+        basis_obo = (
+            self.key_acts_for.get(signers[1].keyid)
+            if len(signers) >= 2 and signers[1].keyid in self.key_acts_for
+            else None
+        )
         return self.add_record(
             kind="Basis",
             stream=GOV_STREAM,
@@ -719,6 +742,7 @@ class BundleBuilder:
             session=session,
             body=body,
             corrupt_sig_index=corrupt_sig_index,
+            on_behalf_of=basis_obo,
         )
 
     def sign_release_approval(
@@ -1260,6 +1284,7 @@ def build_all_cases() -> list[tuple[str, str, dict[str, Any], dict[str, Any], di
         [
             make_finding(layer=2, subject=basis_ref, check="basis_signatures", result="ok", code="ok", category="mechanical_check"),
             make_finding(layer=3, subject=req_ref, check="basis_declared_power", result="failed", code="act_cites_declared_or_absent_power", category="mechanical_check", about="term-no-sharing"),
+            make_finding(layer=3, subject=req_ref, check="basis_overlay_order", result="ok", code="ok", category="mechanical_check", about=basis_ref),
         ],
     )
 
@@ -1281,6 +1306,7 @@ def build_all_cases() -> list[tuple[str, str, dict[str, Any], dict[str, Any], di
         [
             make_finding(layer=2, subject=basis_ref, check="basis_signatures", result="ok", code="ok", category="mechanical_check"),
             make_finding(layer=3, subject=req_ref, check="basis_declared_power", result="failed", code="act_cites_declared_or_absent_power", category="mechanical_check", about="train_on"),
+            make_finding(layer=3, subject=req_ref, check="basis_overlay_order", result="ok", code="ok", category="mechanical_check", about=basis_ref),
         ],
     )
 

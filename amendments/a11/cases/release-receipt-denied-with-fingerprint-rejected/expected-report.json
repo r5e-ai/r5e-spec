@@ -3,22 +3,13 @@
   "baselineClean": true,
   "expectedA11Findings": [
     {
-      "about": null,
-      "category": "mechanical_check",
-      "check": "basis_signatures",
-      "code": "ok",
-      "layer": 2,
-      "result": "ok",
-      "subject": "evidence:sha256:028eddef45a896929220b4da44b04957daf6bfa153f79e987b38714f9e8f5718"
-    },
-    {
       "about": "bytes:sha256:7c2dca3022e2585b64d5f86a3bdbee309b2c05a412ef36c765b7c1f3768cd8df",
       "category": "mechanical_check",
       "check": "release_receipt_fingerprint",
       "code": "released_fingerprint_unexpected",
       "layer": 2,
       "result": "failed",
-      "subject": "evidence:sha256:70a6f3496dbd6a8fe173e62ec8cede535b57b2b559f12646e368b402b768ad59"
+      "subject": "evidence:sha256:3b14a045e984a1c4d8d98562a666f38f0b06b515a922e31167249d23e7c7320d"
     },
     {
       "about": "key:ed25519:sha256:6567b5cfc020ec8e0dc334ff23e6c9d7fb9a63b7cf83f1af989f5e19c03a9edb",
@@ -27,34 +18,43 @@
       "code": "ok",
       "layer": 2,
       "result": "ok",
-      "subject": "evidence:sha256:b8f8736404276a3a5de9ae5eb0b55489f212ec7e6cd54e60d7ccf5aa626cff6a"
+      "subject": "evidence:sha256:572518f211b487878142865fb91078b185de4529b01fc4ef70fb49f1f5bb86b8"
     },
     {
-      "about": "bytes:sha256:e33c5e49febeed70c70d7f7ae427a14805e506eacdf660cde7c41baef51c9c85",
+      "about": null,
+      "category": "mechanical_check",
+      "check": "basis_signatures",
+      "code": "ok",
+      "layer": 2,
+      "result": "ok",
+      "subject": "evidence:sha256:d9f1261989733ff839a4a1d68707033019da96d3d3f9df03af3271a03a589bbc"
+    },
+    {
+      "about": "bytes:sha256:c51868b04f607b3dea8c0382f9ecd6d3369fabc2e0a0ee02f9da53247b8eec80",
       "category": "cryptographic_proof",
       "check": "witness_receipt_binding",
       "code": "ok",
       "layer": 3,
       "result": "ok",
-      "subject": "evidence:sha256:70a6f3496dbd6a8fe173e62ec8cede535b57b2b559f12646e368b402b768ad59"
+      "subject": "evidence:sha256:3b14a045e984a1c4d8d98562a666f38f0b06b515a922e31167249d23e7c7320d"
     },
     {
-      "about": "evidence:sha256:028eddef45a896929220b4da44b04957daf6bfa153f79e987b38714f9e8f5718",
+      "about": "evidence:sha256:d9f1261989733ff839a4a1d68707033019da96d3d3f9df03af3271a03a589bbc",
       "category": "mechanical_check",
       "check": "basis_declared_power",
       "code": "ok",
       "layer": 3,
       "result": "ok",
-      "subject": "evidence:sha256:b8f8736404276a3a5de9ae5eb0b55489f212ec7e6cd54e60d7ccf5aa626cff6a"
+      "subject": "evidence:sha256:572518f211b487878142865fb91078b185de4529b01fc4ef70fb49f1f5bb86b8"
     },
     {
-      "about": "evidence:sha256:028eddef45a896929220b4da44b04957daf6bfa153f79e987b38714f9e8f5718",
+      "about": "evidence:sha256:d9f1261989733ff839a4a1d68707033019da96d3d3f9df03af3271a03a589bbc",
       "category": "mechanical_check",
       "check": "basis_overlay_order",
       "code": "ok",
       "layer": 3,
       "result": "ok",
-      "subject": "evidence:sha256:b8f8736404276a3a5de9ae5eb0b55489f212ec7e6cd54e60d7ccf5aa626cff6a"
+      "subject": "evidence:sha256:572518f211b487878142865fb91078b185de4529b01fc4ef70fb49f1f5bb86b8"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

@@ -9,16 +9,16 @@
       "code": "ok",
       "layer": 2,
       "result": "ok",
-      "subject": "evidence:sha256:c978e8c60d2ebfca9221ea2b40e2ee9fc15782072dac19f0712b6c929f7fb1ea"
+      "subject": "evidence:sha256:52dc3c3c57185fc242e24097016566880581ff8583a22bf64a48b993ac20f5b8"
     },
     {
-      "about": "evidence:sha256:a6b632a93959f52e7ba347c485a7087051a951c4e7037176f71ebec2e7a86e25",
+      "about": "evidence:sha256:5e77fec04f18b765cf35b82fc2ef6af4310c957f18c97049097818535e68f178",
       "category": "mechanical_check",
       "check": "basis_declared_power",
       "code": "proposal_authorises_nothing",
       "layer": 3,
       "result": "failed",
-      "subject": "evidence:sha256:8518ce5d728f3dc6a308178cb059ad4d793ad8bf0946ce04bedf4eaf47cacd7d"
+      "subject": "evidence:sha256:3aba0f350ea0ee7f336cec81f282e0ce3cb424ad31b24823a710b648bd9ce18c"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",

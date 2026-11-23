@@ -3,13 +3,13 @@
   "baselineClean": true,
   "expectedA11Findings": [
     {
-      "about": "evidence:sha256:d546f220df70c50fcebb61d5f8698aaf5e2628447e784d7099cecfd16805e32a",
+      "about": "evidence:sha256:ed5ac9bbebae93e2a06441156114f86e24ac2bf4800eb731207ce9ee87677c55",
       "category": "cryptographic_proof",
       "check": "succession_recovery",
       "code": "succession_recovery_rule_unknown",
       "layer": 2,
       "result": "failed",
-      "subject": "evidence:sha256:325e91dd01a447d753f51c92a4e48cfc9a76376f69c0854fad4f44e55f810dac"
+      "subject": "evidence:sha256:4d473a135558da48dd40469b46e2b46d85ded515f1cbaba94a26aab4daa41576"
     }
   ],
   "format": "r5e.provenance-verify-report/v2",
